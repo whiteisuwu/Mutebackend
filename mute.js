@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   const token = process.env.GITHUB_TOKEN;
-  const repo = "YOUR_USERNAME/mute-api"; // Change this!
+  const repo = "whiteisuwu/Mutebackend"; // Change this!
   const filePath = "muted.json";
 
   const headers = {
